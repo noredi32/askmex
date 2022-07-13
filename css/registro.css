@@ -8,9 +8,9 @@
 
 .contenedor .registro {
     font-family: "Mukta", sans-serif;
-    background-color: rgb(245, 244, 244);
+    border:1px solid rgb(180, 178, 178);
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -30,14 +30,15 @@
 }
 
 #form_consultor input {
-    vertical-align: middle; 
-    align-content: space-between;
-    border-radius: 5px;
-    border: 1px solid #39c;
-    background-color:rgb(224, 221, 221);
-    border: 0;
     outline: none;
-   
+    border-radius: 5px;
+    background-color: #eee;
+    border: 0;
+    border-bottom:1px solid rgb(90, 88, 88);
+}
+
+#form_consultor div {
+    line-height:2.5em;
 }
 
 #form_consultor #button  {
@@ -60,3 +61,16 @@ color: white;
     color: white;
 }
 
+.form_consultor {
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    .contenedor {
+        display: 100% !important;
+    }
+    #form_consultor input{
+        width: 60% !important;
+    }
+}
