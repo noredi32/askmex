@@ -1,0 +1,94 @@
+#funtion {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+  }
+
+#funtion h4 {
+    font-size: 40px;
+    color:  #243364;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+#funtion p {
+    font-size: 15px;
+    color:  #7e7e7e;
+  }
+
+
+#funtion button {
+    height: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color:  #155584;
+    background-color:  #155584;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+.stage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 80%;
+   
+  }
+  
+.stage .card {
+    margin: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+.stage .card .stage_content {
+    padding: 10px 20px;
+  }
+
+.stage .card .stage_content h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #243364;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+.stage .card .stage_content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  
+.stage .card .stage_content a {
+    font-size: 16px;
+    color:   #83acad ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+.stage .card .stage_content figure {
+    width: 50px;
+    margin-top: 0;
+    display: flex;
+    align-content: center;
+  }
+
+.stage .card .stage_content .icon figure {
+    color: #243364;
+  }
+
+.stage .card .stage_content .stage_img figure img {
+    width: 600px;
+    margin-top: 0;
+    align-content: center;
+  }
+
+
+
+  

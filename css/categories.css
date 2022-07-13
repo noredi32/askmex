@@ -1,0 +1,31 @@
+.categories {
+  margin:auto;
+  text-align: center;
+}
+
+.categories h4 {
+    font-size: 40px;
+    color:  #243364;
+    font-family: 'Mukta', sans-serif;
+}
+
+.cat {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin:auto;
+}
+
+.categories .cat .card_categories {
+  margin:20px 10px;
+  display: flex;
+  align-content:space-around;
+  align-items: center;
+  overflow: hidden;
+
+}
+.categories .cat .card_categories .cat_img figure img {
+  width: 100px;
+  height: 100px;
+}
+

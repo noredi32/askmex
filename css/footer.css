@@ -1,0 +1,73 @@
+.pie-page { 
+  width: 100%;
+  background-color:#0474ac;
+  }
+
+.pie-page .g1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 30px 0px;
+
+}
+.pie-page .g1 .boxfooter figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.pie-page .g1 .boxfooter h2 {
+  color:white;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: 'Mukta', sans-serif;
+}
+ 
+.pie-page .g1 .boxfooter p {
+  color: white;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pie-page .g1 .redsocial a {
+  display: inline-block;
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color:white;
+  margin-right: 10px;
+  background-color: #155584;
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.pie-page .g1 .redsocial a:hover {
+  color:#7c9ccc;
+}
+
+.pie-page .g2 {
+  background-color: #1a1e49;
+  padding: 15px 10px;
+  text-align: center;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pie-page .g2 small {
+font-size: 15px;
+}
+
+
+   
+ 
+ 
+
+

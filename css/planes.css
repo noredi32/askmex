@@ -1,0 +1,36 @@
+ #planes { 
+  width: 100%;
+  background-color: rgba(270, 270, 270, 0.620);
+  background-blend-mode: overlay;
+  background-image:  url("../img/wall_business.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  } 
+#planes .boxes {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+#planes .boxes .box-plan {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  } 
+#planes .boxes .box-plan h3,p {
+    color: #233460;
+  } 
+#planes .boxes .box-plan .box-img figure i {
+    color: #233460;
+  }
+
+
+
+   
+ 
+ 
+
+

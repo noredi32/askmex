@@ -1,0 +1,62 @@
+.contenedor {
+    width:80%;
+    margin:auto;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.contenedor .registro {
+    font-family: "Mukta", sans-serif;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor .registro .fiendselt {
+    width: 60%;
+}
+
+#form_consultor  {
+    width: 90%;
+    margin:20px 30px;
+}
+
+#form_consultor label {
+    width: 400px;
+    display: inline-block;  
+}
+
+#form_consultor input {
+    vertical-align: middle; 
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    background-color:rgb(224, 221, 221);
+    border: 0;
+    outline: none;
+   
+}
+
+#form_consultor #button  {
+height: 40px;
+border-width: 1px;
+border-radius: 10px;
+border-color: #155584;
+background-color: #155584;
+font-family: "Montserrat", sans-serif;
+color: white;
+}
+
+#form_consultor #reset {
+    height: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #155584;
+    background-color: #155584;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+

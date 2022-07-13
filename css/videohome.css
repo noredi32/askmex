@@ -1,0 +1,29 @@
+#video-home {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin:70px 20px;
+}
+
+#video-home .text-video {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  color: #78787a;
+}
+
+#video-home .text-video h1 {
+    font-size: 40px;
+    color: #233460;
+    font-family: 'Mukta', sans-serif;
+}
+#video-home button {
+    height: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color:  #155584;
+    background-color:  #155584;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }

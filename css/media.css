@@ -1,0 +1,224 @@
+/* Dispositivo movil */
+@media (max-width: 575px) {
+  .ingreso .social {
+    width: 100%;
+  }
+  .ingreso .sign-in {
+    display: none;
+  }
+
+  .menu {
+    height: auto;
+  }
+
+  .menu .logo {
+    display:none;
+  }
+  .menu ul {
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .menu ul li {
+    width: 100%;
+    height: auto;
+    border-color: white;
+    border: 1;
+    padding: 5px;
+  }
+
+  .menu ul li:hover {
+    background-color:  #0078a7; 
+  }
+
+  .menu ul a {
+    text-decoration: none;
+    color:white;
+    padding:0;
+  }
+
+  .stage {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 80%;
+  }
+
+  .stage .card {
+    text-align: center;
+  }
+
+ .stage .card .stage_content .icon figure {
+    display: true;
+  }
+
+  .stage .card .stage_content .stage_img figure img {
+    width: 300px;
+    align-content: center;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  #features {
+    display: grid;
+    grid-template-columns: 80%;
+  }
+
+  #features article .img-traffic img {
+    width: auto;
+    height: 150px;
+  } 
+
+  #planes {
+    background-image: none;
+  }
+
+  #planes .boxes {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  
+  .pie-page .g1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  .pie-page .g1 .boxfooter figure {
+    display: flex;
+    justify-content:start;
+  }
+
+  #whatsapp-chat {
+    width: auto;
+    left: 5%;
+    right: 5%;
+    font-size: 80%;
+}
+}
+
+/* Dispositivo pequeño */
+@media (min-width: 576px) and (max-width: 767px) {
+  .ingreso .social {
+    width: 60%;
+  }
+  .menu .logo {
+    display:none;
+  }
+
+  .stage {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 80%;
+  }
+
+  .stage .card {
+  text-align: center;
+  }
+
+  .stage .card .stage_content {
+    padding: 10px 10px;
+    width: 60%;
+  }
+  .stage .card .stage_content figure {
+    width: 0;
+    display: flex;
+    align-content: center;
+  }
+  .stage .card .stage_content .icon figure {
+    display: none;
+  }
+
+  .stage .card .stage_content .stage_img figure img {
+    width: 400px;
+    height: auto;
+  }
+  .categories .cat .card_categories .cat_img figure img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #features {
+    display: grid;
+    grid-template-columns: 80%;
+  }
+
+  .pie-page .g1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  } 
+  .pie-page .g1 .boxfooter figure {
+    display: flex;
+    justify-content:start;
+  } 
+
+}
+
+/* Dispositivo mediano (tablets) */
+@media (min-width: 768px) and (max-width: 991px)  {
+  .menu .logo {
+    display:none;
+  }
+
+  .stage {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 80%;
+  }
+
+  .stage .card {
+  text-align: center;
+  }
+
+  .stage .card .stage_content {
+    padding: 10px 10px;
+    width: 60%;
+  }
+  
+  .stage .card .stage_content figure {
+    width: 0;
+    display: flex;
+    align-content: center;
+  }
+  .stage .card .stage_content .icon figure {
+    display: none;
+  }
+
+  .stage .card .stage_content .stage_img figure img {
+    width: 400px;
+    height: auto;
+  }
+
+  .categories .cat .card_categories .cat_img figure img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #features {
+    display: grid;
+    grid-template-columns: 80%;
+  }
+  
+  .pie-page .g1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
+}
+}
