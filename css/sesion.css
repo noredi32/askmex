@@ -9,4 +9,9 @@
       padding: 0;
   }
 
- 
+  .btn-google {
+      color: #545454;
+      background-color: #ffffff !important;
+      box-shadow: 0 1px 2px 1px #ddd;
+      margin: 20px 50px;
+    }
